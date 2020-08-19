@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+}
+
+#assignment-instructions {
+    background-color: cyan;
+}
+
+code {
+    font-family: monospace;
+    color: red;
+}
+
+.green-code {
+    color: green;
+}
+
+li {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li + li {
+    background-color: black;
+    color: white;
+}
+
+ol > li {
+    background-color: black;
+    color: blue;
+}
