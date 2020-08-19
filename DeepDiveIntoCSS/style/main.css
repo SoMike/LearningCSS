@@ -11,7 +11,7 @@ body {
 }
 
 #product-overview {
-    background: url("freedom.jpg");
+    background: url("../public/freedom.jpg");
     background-size: cover;
     /* the width of the box elements as div are always 100% */
     /* width: 100%; */
