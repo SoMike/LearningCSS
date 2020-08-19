@@ -1,0 +1,106 @@
+* {
+    /* we can't add it to the body because the browser will overwride the behaviour with
+        the  selector inheritence and set it to the default content-box */
+    /* the width and height of the element contains the padding and border of the content */
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+#product-overview {
+    background: url("freedom.jpg");
+    background-size: cover;
+    /* the width of the box elements as div are always 100% */
+    /* width: 100%; */
+    height: 300px;
+/*  the default box sizing of the elemnt, this make all the width and height of the 
+    element to be set only for the content and not take into consideration the padding and border
+    box-sizing: content-box; */
+}
+
+.section-title {
+    color: #2ddf5c;
+}
+
+#product-overview h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+/* h1 {
+    font-family: sans-serif;
+} */
+
+.main-header {
+    width: 100%;
+    background: #2ddf5c;
+    padding: 8px 16px;
+}
+
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand {
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 63px);
+    vertical-align: middle;
+}
+
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+
+.main-nav__item a {
+    color: #0e4f1f;
+    text-decoration: none;
+    padding: 3px 0;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+    color: white;
+    font-weight: bold;
+    border-bottom: 5px solid white;
+}
+
+.main-nav__item--cta a {
+    color: white;
+    background: #ff1b68;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+    color: #ff1b68;
+    background: white;
+    border: none;
+}
+
+p::first-letter {
+    color: cyan;
+    font-size: 3rem;
+}
