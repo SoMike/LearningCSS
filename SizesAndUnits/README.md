@@ -1,3 +1,3 @@
-# Sixth module
+# Seventh module
 
-Understanding the "background" Property, Images & Background Images, Gradients, Filters.
+Learned what units can be used, '%' and the containing block, 'min-width' & 'max-width', understood 'rem' and 'em', worked on 'vw' and 'vh'
