@@ -7,8 +7,9 @@
     background-clip: border-box;
     /* the width of the box elements as div are always 100% */
     /* width: 100%; */
-    height: 500px;
-    margin-top: 38px;
+    height: 33vh;
+    width: 100vw;
+    margin-top: 2.75rem;
     position: relative;
 /*  the default box sizing of the elemnt, this make all the width and height of the 
     element to be set only for the content and not take into consideration the padding and border
@@ -27,6 +28,18 @@
     position: absolute;
     bottom: 3%;
     left: 3%;
+    font-size: 1.6rem;
+}
+
+@media (min-width: 40rem) {
+    #product-overview {
+        height: 40vh;
+        background-position: 50% 25%;
+    }
+
+    #product-overview h1 {
+        font-size: 3rem;
+    }
 }
 
 .plan__list {
